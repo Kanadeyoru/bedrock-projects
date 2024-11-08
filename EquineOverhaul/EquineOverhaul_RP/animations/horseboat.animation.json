@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.horse.boat": {
+			"loop": true,
+			"bones": {
+				"rightleg": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [0, 0, 0.01]
+				},
+				"Body": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -8, -7.5]
+				},
+				"LegBL": {
+					"rotation": ["-3 - this", "-20 - this", "-10-this"]
+				},
+				"LegBR": {
+					"rotation": ["-3 - this", "20 - this", "10-this"]
+				},
+				"LegFL": {
+					"rotation": [60, 0, 0]
+				},
+				"LegFR": {
+					"rotation": [60, 0, 0]
+				},
+				"Neck": {
+					"rotation": [77.5, 0, 0]
+				}
+			}
+		}
+	}
+}

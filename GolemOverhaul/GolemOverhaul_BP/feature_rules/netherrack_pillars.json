@@ -1,0 +1,52 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "kana_evo:netherrack_pillars",
+      "places_feature": "kana_evo:netherrack_pillar"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "nether"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 20.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -16,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          40,
+          128
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -16,
+          16
+        ]
+      }
+    }
+  }
+}

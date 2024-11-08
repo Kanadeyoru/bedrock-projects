@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+      "identifier": "kana_evo:netherrack_pillar"
+    },
+    "replaceable_blocks": [
+      "minecraft:netherrack",
+      "minecraft:air"
+    ],
+    "ground_block": "minecraft:netherrack",
+    "vegetation_feature": "kana_evo:ka_netherrack",
+    "surface": "floor",
+    "depth": 2,
+    "extra_deep_block_chance": 0,
+    "vertical_range": 3,
+    "vegetation_chance": 1,
+    "horizontal_radius": {
+      "range_min": 0,
+      "range_max": 1
+    },
+    "extra_edge_column_chance": 1
+  }
+}

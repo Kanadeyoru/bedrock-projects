@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "kana_evo:ka_netherrack"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "min_sides_must_attach": 1,
+      "bottom": [
+        "minecraft:netherrack"
+      ]
+    },
+    "places_block": "minecraft:netherrack"
+  }
+}

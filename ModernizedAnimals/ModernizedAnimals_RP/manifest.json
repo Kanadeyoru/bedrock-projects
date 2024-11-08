@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/modernized-animals-bedrock/"
+    },
+    "header": {
+        "name": "Modernized Animals",
+        "description": "Revamping the 10+ years old animal models to better fit modern Minecraft style.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "c5f4b98e-415f-45e3-b756-02511c008289",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "d5ee83ca-a13a-4e9e-a905-3e21f782290e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

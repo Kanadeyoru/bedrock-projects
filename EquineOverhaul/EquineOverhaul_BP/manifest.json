@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/copper-additions-bedrock/"
+    },
+    "header": {
+        "name": "Equine Overhaul",
+        "description": "Make horses, donkeys and mules a good mode of transport again!",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "a55be315-5cf2-43c6-8c19-110fbe9a1a52",
+        "version": [
+            1,
+            2,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "61bf9874-18db-4b0d-80c5-43c4a7049b63",
+            "version": [
+                1,
+                2,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "f7558dbf-5529-4398-9fce-f55a8c25f942",
+            "version": [
+                1,
+                2,
+                0
+            ]
+        }
+    ]
+}

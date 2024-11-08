@@ -1,0 +1,19 @@
+{
+  "texture_data": {
+    "iron_horseshoes": {
+      "textures": [
+        "textures/items/iron_horseshoes"
+      ]
+    },
+    "gold_horseshoes": {
+      "textures": [
+        "textures/items/gold_horseshoes"
+      ]
+    },
+    "diamond_horseshoes": {
+      "textures": [
+        "textures/items/diamond_horseshoes"
+      ]
+    }
+  }
+}
