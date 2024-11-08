@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "kana_po:soap",
+      "menu_category": {
+        "category": "items"
+      },
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:icon": "soap",
+      "minecraft:max_stack_size": 64,
+      "minecraft:tags": {
+        "tags": [
+          "kana_po:soap"
+        ]
+      }
+    }
+  }
+}

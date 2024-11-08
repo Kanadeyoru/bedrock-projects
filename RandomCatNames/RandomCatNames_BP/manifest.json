@@ -1,0 +1,79 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/random-cat-names/"
+    },
+    "header": {
+        "name": "Random Cat Names",
+        "description": "An addon that adds names to cats.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "46ae1d50-4c08-4b6a-8807-21eab83900d5",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "a3807609-d7ba-4203-919a-ef43e7fac44f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "6a43c276-9590-45d7-a593-3290f66c151e",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "surnames_on",
+            "memory_tier": 1,
+            "name": "§6\nFirstname + Lastname.§r\n§cNote:§r Cats will spawn with a first and last name."
+        },
+        {
+            "folder_name": "surnames_off",
+            "memory_tier": 1,
+            "name": "§6\nFirstname only.§r\n§cNote:§r Cats will spawn with only a first name."
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " §oNo experimental options are required!§r"
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu."
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@Kanadeyoru§r on CurseForge for new content!"
+        }
+    ]
+}

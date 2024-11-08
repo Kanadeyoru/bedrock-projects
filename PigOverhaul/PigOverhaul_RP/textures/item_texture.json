@@ -1,0 +1,14 @@
+{
+	"texture_data": {
+		"tallow": {
+			"textures": [
+				"textures/items/tallow"
+			]
+		},
+		"soap": {
+			"textures": [
+				"textures/items/soap"
+			]
+		}
+	}
+}

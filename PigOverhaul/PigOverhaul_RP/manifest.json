@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/pig-overhaul-bedrock/"
+    },
+    "header": {
+        "name": "Pig Overhaul",
+        "description": "Fix pigs being inferior version of cows in vanilla Minecraft.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "f0eae7a0-8308-4a6e-8d9e-85dbc1f35660",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "2693ef8a-f22e-45f2-aa72-c86da78c97f1",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "8033dcd8-cb2c-4392-86d8-53be3b03fb44",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

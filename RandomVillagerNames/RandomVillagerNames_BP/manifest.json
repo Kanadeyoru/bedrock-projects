@@ -1,0 +1,79 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/random-villager-names/"
+    },
+    "header": {
+        "name": "Random Villager Names",
+        "description": "An addon that adds names to villagers and illagers.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "157a71d2-b669-438c-937e-1c0d8e5ea134",
+        "version": [
+            1,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "926638f6-2907-4919-a151-bd6679c6e990",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "f0a82088-4716-4586-be4f-3247b8782dda",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "surnames_on",
+            "memory_tier": 1,
+            "name": "§6\nFirstname + Lastname.§r\n§cNote:§r Villagers and illagers will spawn with a first and last name."
+        },
+        {
+            "folder_name": "surnames_off",
+            "memory_tier": 1,
+            "name": "§6\nFirstname only.§r\n§cNote:§r Villagers and illagers will spawn with only a first name."
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " §oNo experimental options are required!§r"
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu."
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@Kanadeyoru§r on CurseForge for new content!"
+        }
+    ]
+}

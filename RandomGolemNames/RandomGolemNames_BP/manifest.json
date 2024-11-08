@@ -1,0 +1,84 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/random-golem-names/"
+    },
+    "header": {
+        "name": "Random Golem Names",
+        "description": "An addon that adds names to iron golems, snow golems and ravagers.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "d2b6882d-6dd5-4673-82a0-66f0b962cf48",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "885ae966-0512-4d2e-908e-8f0030a2fa85",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "7ae1ac16-6ea6-4e00-9e20-b515889ff6b6",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "machine_names",
+            "memory_tier": 1,
+            "name": "§6\nMachine names.§r\n§cNote:§r Golems and ravagers will spawn with unusual names that resemble machines/robots."
+        },
+        {
+            "folder_name": "surnames_on",
+            "memory_tier": 1,
+            "name": "§6\nFirstname + Lastname.§r\n§cNote:§r Golems and ravagers will spawn with a first and last name."
+        },
+        {
+            "folder_name": "surnames_off",
+            "memory_tier": 1,
+            "name": "§6\nFirstname only.§r\n§cNote:§r Golems and ravagers will spawn with only a first name."
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " §oNo experimental options are required!§r"
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu."
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@Kanadeyoru§r on CurseForge for new content!"
+        }
+    ]
+}

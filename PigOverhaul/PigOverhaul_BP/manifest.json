@@ -1,0 +1,87 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/pig-overhaul-bedrock/"
+    },
+    "header": {
+        "name": "Pig Overhaul",
+        "description": "Fix pigs being inferior version of cows in vanilla Minecraft.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "8033dcd8-cb2c-4392-86d8-53be3b03fb44",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "365327a9-3ea1-4c40-80e2-fe28dc2c0886",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "92b20db3-f39b-4417-ae4e-c5ddcd9c2465",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "f0eae7a0-8308-4a6e-8d9e-85dbc1f35660",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "breedingChanges_on",
+            "memory_tier": 1,
+            "name": "§6\nBreeding changes enabled.§r\n§cNote:§r Pigs will give birth to 2 piglets instead of just 1."
+        },
+        {
+            "folder_name": "breedingChanges_off",
+            "memory_tier": 1,
+            "name": "§6\nBreeding changes disabled.§r\n§cNote:§r Pigs will give birth to 1 piglet only."
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " §oNo experimental options are required!§r"
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu."
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@Kanadeyoru§r on CurseForge for new content!"
+        }
+    ]
+}

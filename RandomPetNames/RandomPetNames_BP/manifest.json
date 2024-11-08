@@ -1,0 +1,57 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/random-pet-names/"
+    },
+    "header": {
+        "name": "Random Pet Names",
+        "description": "An addon that adds names to baby pets.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "9107819c-dcf6-4a8d-9079-c627b29eb6e9",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "009a7f11-0966-4d0a-a285-70b2d88aaf14",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "f9359442-b2ae-4804-946b-dd8ac25d7b18",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}
