@@ -1,0 +1,24 @@
+{
+	"texture_data": {
+		"wrench": {
+			"textures": [
+				"textures/items/wrench"
+			]
+		},
+		"hammer": {
+			"textures": [
+				"textures/items/hammer"
+			]
+		},
+		"chisel": {
+			"textures": [
+				"textures/items/chisel"
+			]
+		},
+		"trowel": {
+			"textures": [
+				"textures/items/trowel"
+			]
+		}
+	}
+}

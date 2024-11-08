@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "kana_ca:trowel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "/  ",
+            " cc"
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:stick"
+            },
+            "c": {
+                "item": "minecraft:copper_ingot"
+            }
+        },
+        "result": {
+            "item": "kana_ca:trowel",
+            "count": 1
+        }
+    }
+}

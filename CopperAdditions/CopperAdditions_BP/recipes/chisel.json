@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "kana_ca:chisel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "c",
+            "/"
+        ],
+        "key": {
+            "c": {
+                "item": "minecraft:copper_ingot"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "minecraft:sticky_piston",
+            "count": 1
+        }
+    }
+}
