@@ -1,0 +1,87 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/cloud-bucket-bedrock/"
+    },
+    "header": {
+        "name": "Cloud Bucket",
+        "description": "Adds a new item that can place cloud blocks that disperse after 4 seconds to help players during their building time.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "e1e75313-bf77-4d78-b59a-48a85486a65e",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "e6140ba4-e423-4261-971a-e07c7d453af1",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "599488af-5975-4dad-8e1c-9473e11ef01c",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "0972aae8-6266-43fb-a634-0d57259499d6",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "collision_on",
+            "memory_tier": 1,
+            "name": "§6\nBlock collision enabled§r\n§cNote:§r Gives collisions to Cloud Blocks, meaning entities will be able to walk on top of them."
+        },
+        {
+            "folder_name": "collision_off",
+            "memory_tier": 1,
+            "name": "§6\nBlock collision disabled§r\n§cNote:§r Removes collisions to Cloud Blocks, meaning entities will pass through them."
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " §oNo experimental options are required!§r"
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu."
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@Kanadeyoru§r on CurseForge for new content!"
+        }
+    ]
+}

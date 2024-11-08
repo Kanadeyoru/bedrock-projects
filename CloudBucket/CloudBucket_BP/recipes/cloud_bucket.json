@@ -1,0 +1,13 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "kana_cb:cloud_bucket"
+        },
+        "tags": [
+            "furnace"
+        ],
+        "input": "minecraft:powder_snow_bucket",
+        "output": "kana_cb:cloud_bucket"
+    }
+}

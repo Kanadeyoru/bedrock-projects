@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Kanadeyoru"
+        ],
+        "license": "MIT",
+        "url": "https://mcpedl.com/cloud-bucket-bedrock/"
+    },
+    "header": {
+        "name": "Cloud Bucket",
+        "description": "Adds a new item that can place cloud blocks that disperse after 4 seconds to help players during their building time.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "uuid": "0972aae8-6266-43fb-a634-0d57259499d6",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "f38ba433-1bcf-4f57-9924-016d418b5fcc",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "e1e75313-bf77-4d78-b59a-48a85486a65e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
