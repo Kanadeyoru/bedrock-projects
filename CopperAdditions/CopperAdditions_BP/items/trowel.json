@@ -1,12 +1,11 @@
 {
-  "format_version": "1.20.50",
+  "format_version": "1.21.40",
   "minecraft:item": {
     "description": {
       "identifier": "kana_ca:trowel",
       "menu_category": {
         "category": "equipment"
-      },
-      "is_experimental": false
+      }
     },
     "components": {
       "minecraft:icon": "trowel",
@@ -42,7 +41,10 @@
       "minecraft:enchantable": {
         "slot": "flintsteel",
         "value": 10
-      }
+      },
+      "minecraft:custom_components": [
+        "kana_ca:swing_animation"
+      ]
     }
   }
 }

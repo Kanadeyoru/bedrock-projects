@@ -115,21 +115,21 @@ function updateHotbarAndBlockItems(player, inventory, data) {
 
         if (invItem && typeId) {
             try {
-                // Check if the item has a destructible_by_mining component
-                const hasDestructibleByMining = invItem.getComponent('minecraft:destructible_by_mining') !== null;
+                const isBlock = typeId.startsWith("minecraft:") && !typeId.includes("shulker");
 
-                if (hasDestructibleByMining && !typeId.includes("shulker")) {
+                if (isBlock) {
                     data.blockItems.set(i, invItem);
                 }
             } catch (error) {
-                console.warn(`Error checking item type for ${typeId}: ${error}`);
+                console.warn(`Erro ao verificar o tipo do item ${typeId}: ${error}`);
             }
         }
     }
 
     data.cachedHotbar = currentHotbar;
-    snapshotPlayerInventory(player); // Update snapshot after changes
+    snapshotPlayerInventory(player);
 }
+
 
 function calculateNewBlockLocation(data) {
     let newBlockLocation = { ...data.clickedBlockLocation };

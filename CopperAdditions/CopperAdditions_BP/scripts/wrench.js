@@ -11,7 +11,7 @@ const allowedStatesNormal = [
     "vertical_half", "pillar_axis", "facing",
     "facing_direction", "minecraft:facing_direction",
     "ground_sign_direction", "orientation", "direction",
-    "minecraft:direction", "rail_direction"
+    "minecraft:direction", "rail_direction", "minecraft:vertical_half"
 ];
 const allowedStatesSneaking = [
     "upside_down_bit", "attachment",
@@ -61,12 +61,14 @@ function hasCooldownExpired(player) {
 world.beforeEvents.itemUseOn.subscribe((event) => {
     const player = world.getAllPlayers().find(v => v.id == event.source.id);
     if (event.source.typeId !== "minecraft:player" || !event.itemStack?.hasTag("kana_ca:wrench")) return;
+    const block = event.block;
+    const blockTypeId = block.typeId; // Use typeId to get the block's identifier
+    if (!blockHasValidPropertiesNormal(block)) return;
 
     // Ensure the cooldown has expired before proceeding
     if (!hasCooldownExpired(player)) return;
 
-    const block = event.block;
-    const blockTypeId = block.typeId; // Use typeId to get the block's identifier
+
 
     // Return if the block's typeId includes "smithing", "frame", or "vault"
     if (blockTypeId.includes("smithing") || blockTypeId.includes("frame") || blockTypeId.includes("shulker") || blockTypeId.includes("button") || blockTypeId.includes("crafting_table") || blockTypeId.includes("vault")) {
