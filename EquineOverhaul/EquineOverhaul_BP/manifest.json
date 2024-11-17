@@ -5,7 +5,7 @@
             "Kanadeyoru"
         ],
         "license": "MIT",
-        "url": "https://mcpedl.com/copper-additions-bedrock/"
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/equine-overhaul-bedrock"
     },
     "header": {
         "name": "Equine Overhaul",
@@ -18,7 +18,7 @@
         "uuid": "a55be315-5cf2-43c6-8c19-110fbe9a1a52",
         "version": [
             1,
-            2,
+            3,
             0
         ]
     },
@@ -28,7 +28,18 @@
             "uuid": "61bf9874-18db-4b0d-80c5-43c4a7049b63",
             "version": [
                 1,
-                2,
+                3,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "e75538de-be49-437b-9d12-23ce2d5c76a5",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                3,
                 0
             ]
         }
@@ -38,9 +49,13 @@
             "uuid": "f7558dbf-5529-4398-9fce-f55a8c25f942",
             "version": [
                 1,
-                2,
+                3,
                 0
             ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
         }
     ]
 }

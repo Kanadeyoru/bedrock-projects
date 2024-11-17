@@ -14,6 +14,11 @@
       "textures": [
         "textures/items/diamond_horseshoes"
       ]
+    },
+    "copper_horn": {
+      "textures": [
+        "textures/items/copper_horn"
+      ]
     }
   }
 }

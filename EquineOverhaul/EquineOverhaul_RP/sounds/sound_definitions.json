@@ -1,0 +1,52 @@
+{
+   "format_version": "1.20.20",
+   "sound_definitions": {
+      "kana_eo:copper_horn": {
+         "category": "record",
+         "max_distance": 256.0,
+         "min_distance": null,
+         "sounds": [
+            {
+               "name": "sounds/melody0",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody1",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody2",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody3",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody4",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody5",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody6",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody7",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody8",
+               "volume": 1
+            },
+            {
+               "name": "sounds/melody9",
+               "volume": 1
+            }
+         ]
+      }
+   }
+}

@@ -90,9 +90,6 @@
 				"minecraft:behavior.follow_parent": {
 					"priority": 4,
 					"speed_multiplier": 1
-				},
-				"minecraft:movement": {
-					"value": 0.175
 				}
 			},
 			"minecraft:mule_adult": {
@@ -175,15 +172,24 @@
 						},
 						{
 							"item": "saddle"
+						},
+						{
+							"item": "kana_eo:diamond_horseshoes"
+						},
+						{
+							"item": "kana_eo:gold_horseshoes"
+						},
+						{
+							"item": "kana_eo:iron_horseshoes"
+						},
+						{
+							"item": "kana_eo:iron_horseshoes"
 						}
 					],
 					"tame_event": {
 						"event": "minecraft:on_tame",
 						"target": "self"
 					}
-				},
-				"minecraft:movement": {
-					"value": 0.175
 				},
 				"minecraft:collision_box": {
 					"width": 1.4,
@@ -331,15 +337,78 @@
 							},
 							"equip_item_slot": "0",
 							"interact_text": "action.interact.saddle"
+						},
+						{
+							"play_sounds": "armor.equip_generic",
+							"on_interact": {
+								"filters": {
+									"all_of": [
+										{
+											"none_of": [
+												{
+													"test": "has_equipment",
+													"subject": "self",
+													"domain": "inventory",
+													"value": "kana_eo:iron_horseshoes"
+												},
+												{
+													"test": "has_equipment",
+													"subject": "self",
+													"domain": "inventory",
+													"value": "kana_eo:gold_horseshoes"
+												},
+												{
+													"test": "has_equipment",
+													"subject": "self",
+													"domain": "inventory",
+													"value": "kana_eo:diamond_horseshoes"
+												}
+											]
+										},
+										{
+											"any_of": [
+												{
+													"test": "has_equipment",
+													"subject": "player",
+													"domain": "hand",
+													"value": "kana_eo:iron_horseshoes"
+												},
+												{
+													"test": "has_equipment",
+													"subject": "player",
+													"domain": "hand",
+													"value": "kana_eo:gold_horseshoes"
+												},
+												{
+													"test": "has_equipment",
+													"subject": "player",
+													"domain": "hand",
+													"value": "kana_eo:diamond_horseshoes"
+												}
+											]
+										},
+										{
+											"test": "is_family",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "is_sneak_held",
+											"subject": "other",
+											"value": false
+										}
+									]
+								},
+								"target": "self"
+							},
+							"equip_item_slot": "2",
+							"interact_text": "action.interact.equiphorsearmor"
 						}
 					]
 				},
 				"minecraft:inventory": {
-					"inventory_size": 16,
+					"inventory_size": 15,
 					"container_type": "horse"
-				},
-				"minecraft:movement": {
-					"value": 0.2625
 				},
 				"minecraft:collision_box": {
 					"width": 1,
@@ -489,18 +558,26 @@
 				}
 			},
 			"kana_eo:with_rider": {
-				"minecraft:movement": {
-					"value": {
-						"range_min": 0.16875,
-						"range_max": 0.50625
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0,
+						0.1
+					],
+					"time_down_event": {
+						"event": "kana_eo:remove_slowdown"
 					}
 				}
 			},
 			"kana_eo:without_rider": {
-				"minecraft:movement": {
-					"value": {
-						"range_min": 0,
-						"range_max": 0
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0,
+						0.1
+					],
+					"time_down_event": {
+						"event": "kana_eo:slowdown"
 					}
 				}
 			},
@@ -542,6 +619,9 @@
 			}
 		},
 		"components": {
+			"minecraft:movement": {
+				"value": 0.2625
+			},
 			"minecraft:is_hidden_when_invisible": {},
 			"minecraft:type_family": {
 				"family": [
@@ -573,6 +653,16 @@
 							"horsearmorgold",
 							"horsearmordiamond"
 						]
+					},
+					{
+						"slot": 2,
+						"item": "kana_eo:iron_horseshoes",
+						"accepted_items": [
+							"kana_eo:iron_horseshoes",
+							"kana_eo:gold_horseshoes",
+							"kana_eo:diamond_horseshoes"
+						],
+						"interact_text": "action.interact.equiphorsearmor"
 					}
 				]
 			},
@@ -810,6 +900,20 @@
 				"queue_command": {
 					"command": [
 						"damage @e[type=player,r=1] 1 magic"
+					]
+				}
+			},
+			"kana_eo:slowdown": {
+				"queue_command": {
+					"command": [
+						"effect @s slowness 6 255 true"
+					]
+				}
+			},
+			"kana_eo:remove_slowdown": {
+				"queue_command": {
+					"command": [
+						"effect @s slowness 0 0 true"
 					]
 				}
 			}

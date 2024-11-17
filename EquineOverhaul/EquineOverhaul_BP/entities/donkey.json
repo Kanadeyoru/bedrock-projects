@@ -54,9 +54,6 @@
 				"minecraft:behavior.follow_parent": {
 					"priority": 4,
 					"speed_multiplier": 1
-				},
-				"minecraft:movement": {
-					"value": 0.175
 				}
 			},
 			"minecraft:donkey_adult": {
@@ -150,9 +147,6 @@
 						"event": "minecraft:on_tame",
 						"target": "self"
 					}
-				},
-				"minecraft:movement": {
-					"value": 0.175
 				},
 				"minecraft:collision_box": {
 					"width": 1.4,
@@ -275,9 +269,6 @@
 						"golden_apple",
 						"appleEnchanted"
 					]
-				},
-				"minecraft:movement": {
-					"value": 0.2625
 				},
 				"minecraft:collision_box": {
 					"width": 1,
@@ -426,18 +417,26 @@
 				}
 			},
 			"kana_eo:with_rider": {
-				"minecraft:movement": {
-					"value": {
-						"range_min": 0.16875,
-						"range_max": 0.50625
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0,
+						0.1
+					],
+					"time_down_event": {
+						"event": "kana_eo:remove_slowdown"
 					}
 				}
 			},
 			"kana_eo:without_rider": {
-				"minecraft:movement": {
-					"value": {
-						"range_min": 0,
-						"range_max": 0
+				"minecraft:timer": {
+					"looping": true,
+					"time": [
+						0,
+						0.1
+					],
+					"time_down_event": {
+						"event": "kana_eo:slowdown"
 					}
 				}
 			},
@@ -479,6 +478,9 @@
 			}
 		},
 		"components": {
+			"minecraft:movement": {
+				"value": 0.2625
+			},
 			"minecraft:is_hidden_when_invisible": {},
 			"minecraft:type_family": {
 				"family": [
@@ -720,6 +722,20 @@
 				"queue_command": {
 					"command": [
 						"damage @e[type=player,r=1] 1 magic"
+					]
+				}
+			},
+			"kana_eo:slowdown": {
+				"queue_command": {
+					"command": [
+						"effect @s slowness 6 255 true"
+					]
+				}
+			},
+			"kana_eo:remove_slowdown": {
+				"queue_command": {
+					"command": [
+						"effect @s slowness 0 0 true"
 					]
 				}
 			}

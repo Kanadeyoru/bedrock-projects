@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "kana_eo:copper_horn",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "copper_horn",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 64
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ],
+            "repair_amount": "query.max_durability * 0.25"
+          },
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "repair_amount": "query.max_durability * 0.5"
+          },
+          {
+            "items": [
+              "kana_eo:copper_horn"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.12 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "flintsteel",
+        "value": 10
+      },
+      "minecraft:tags": {
+        "tags": [
+          "kana_eo:copper_horn"
+        ]
+      },
+      "minecraft:cooldown": {
+        "category": "copper_horn",
+        "duration": 7
+      }
+    }
+  }
+}
