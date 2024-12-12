@@ -1,0 +1,46 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/netherrack_pillar_top_10_weightf"
+    },
+    "features": [
+      [
+        "kana_nto:pillar/netherrack_pillar_23_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_27_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_29_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_30_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_33_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_34_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_36_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_40_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_42_structuref",
+        1
+      ]
+    ]
+  }
+}

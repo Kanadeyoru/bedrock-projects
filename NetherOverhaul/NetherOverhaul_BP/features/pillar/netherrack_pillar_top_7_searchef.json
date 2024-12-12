@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:search_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/netherrack_pillar_top_7_searchef"
+    },
+    "places_feature": "kana_nto:pillar/netherrack_pillar_top_7_weightf",
+    "search_volume": {
+      "min": [
+        0,
+        -6,
+        0
+      ],
+      "max": [
+        0,
+        -6,
+        0
+      ]
+    },
+    "search_axis": "-y",
+    "required_successes": 2
+  }
+}

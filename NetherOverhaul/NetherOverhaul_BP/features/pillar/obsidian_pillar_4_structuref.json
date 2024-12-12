@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/obsidian_pillar_4_structuref"
+    },
+    "structure_name": "mystructure:obsidian_pillar_4",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:fire",
+          "minecraft:flowing_lava",
+          "minecraft:lava"
+        ]
+      }
+    }
+  }
+}

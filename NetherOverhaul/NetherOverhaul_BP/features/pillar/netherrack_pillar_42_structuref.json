@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/netherrack_pillar_42_structuref"
+    },
+    "structure_name": "mystructure:netherrack_pillar_42",
+    "adjustment_radius": 0,
+    "facing_direction": "random",
+    "constraints": {
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

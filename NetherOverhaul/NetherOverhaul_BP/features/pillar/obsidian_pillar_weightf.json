@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/obsidian_pillar_weightf"
+    },
+    "features": [
+      [
+        "kana_nto:pillar/obsidian_pillar_1_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/obsidian_pillar_2_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/obsidian_pillar_3_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/obsidian_pillar_4_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/obsidian_pillar_5_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/obsidian_pillar_6_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/obsidian_pillar_7_structuref",
+        1
+      ]
+    ]
+  }
+}

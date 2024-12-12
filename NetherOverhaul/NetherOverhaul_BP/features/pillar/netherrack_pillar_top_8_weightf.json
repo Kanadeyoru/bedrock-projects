@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/netherrack_pillar_top_8_weightf"
+    },
+    "features": [
+      [
+        "kana_nto:pillar/netherrack_pillar_24_structuref",
+        1
+      ],
+      [
+        "kana_nto:pillar/netherrack_pillar_39_structuref",
+        1
+      ]
+    ]
+  }
+}

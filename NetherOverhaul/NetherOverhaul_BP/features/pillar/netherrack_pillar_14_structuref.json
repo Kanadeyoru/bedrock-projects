@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/netherrack_pillar_14_structuref"
+    },
+    "structure_name": "mystructure:netherrack_pillar_14",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:netherrack",
+          "minecraft:air",
+          "minecraft:fire",
+          "minecraft:flowing_lava",
+          "minecraft:lava"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "kana_nto:pillar/netherrack_pillar_7_snapf"
+    },
+    "feature_to_snap": "kana_nto:pillar/netherrack_pillar_top_7_searchef",
+    "surface": "ceiling",
+    "vertical_search_range": 12
+  }
+}
