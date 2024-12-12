@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "kana_nto:crimson_turf_top",
+      "menu_category": {
+        "is_hidden_in_commands": true,
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.cross",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "kana_nto:crimson_turf_bottom"
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "crimson_turf_top",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/crimson_turf.json",
+      "minecraft:selection_box": {
+        "size": [
+          6,
+          10,
+          6
+        ],
+        "origin": [
+          -3,
+          0,
+          -3
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:flammable": false
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "texture_data": {
+    "crimson_turf": {
+      "textures": [
+        "textures/items/crimson_turf"
+      ]
+    },
+    "crimson_sprouts": {
+      "textures": [
+        "textures/blocks/crimson_sprouts"
+      ]
+    },
+    "wither_bone": {
+      "textures": [
+        "textures/items/wither_bone"
+      ]
+    },
+    "wither_bone_meal": {
+      "textures": [
+        "textures/items/wither_bone_meal"
+      ]
+    },
+    "gloomy_netherbrick": {
+      "textures": [
+        "textures/items/gloomy_netherbrick"
+      ]
+    },
+    "thornstalk": {
+      "textures": [
+        "textures/blocks/thornstalk_top"
+      ]
+    },
+    "lavalily": {
+      "textures": "textures/blocks/lavalily"
+    },
+    "mushroom_black": {
+      "textures": "textures/blocks/mushroom_black"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "kana_nto:lavalily_gen",
+      "places_feature": "kana_nto:ambient/lavalily_scatterf"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "nether"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -16,
+          16
+        ]
+      },
+      "y": 32,
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -16,
+          16
+        ]
+      }
+    }
+  }
+}

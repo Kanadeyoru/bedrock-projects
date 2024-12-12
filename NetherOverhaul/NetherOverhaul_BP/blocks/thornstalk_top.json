@@ -1,0 +1,67 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "kana_nto:thornstalk_top",
+      "menu_category": {
+        "is_hidden_in_commands": false,
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.cross",
+      "minecraft:custom_components": [
+        "kana_nto:contact_damage"
+      ],
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:soul_soil",
+              "minecraft:soul_sand",
+              "kana_nto:gloomy_netherrack",
+              "kana_nto:thornstalk_middle"
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "thornstalk_top",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/thornstalk.json",
+      "minecraft:selection_box": {
+        "size": [
+          6,
+          14,
+          6
+        ],
+        "origin": [
+          -3,
+          0,
+          -3
+        ]
+      },
+      "minecraft:tick": {
+        "interval_range": [
+          10,
+          10
+        ],
+        "looping": true
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:flammable": false
+    }
+  }
+}

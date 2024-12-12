@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "kana_nto:inkcap_mushroom_block",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "kana_nto:bottom_bit": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:collision_box": true,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:map_color": "#ffffff"
+    },
+    "permutations": [
+      {
+        "condition": "!q.block_state('kana_nto:bottom_bit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "inkcap_mushroom_block",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "mushroom_block_inside",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('kana_nto:bottom_bit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "inkcap_mushroom_block",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

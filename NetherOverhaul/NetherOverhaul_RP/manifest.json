@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["Kanadeyoru"],
+    "license": "GNU General Public License",
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/nether-overhaul-bedrock"
+  },
+  "header": {
+    "name": "Nether Overhaul",
+    "description": "Revamp the Nether with enhanced biomes, new content, and immersive environments!",
+    "min_engine_version": [1, 21, 0],
+    "uuid": "e1b18ec2-c44c-4ab5-ae76-950d84f2c464",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "4cf3bda0-f96e-46de-88bb-e36c79f7b50d",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ce340535-5446-4f65-8222-f84ad0eed6d4",
+      "version": [1, 0, 0]
+    }
+  ]
+}

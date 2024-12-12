@@ -1,0 +1,45 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "kana_nto:crimson_sprouts_block": {
+    "sound": "grass"
+  },
+  "kana_nto:crimson_turf_top": {
+    "sound": "grass"
+  },
+  "kana_nto:crimson_turf_bottom": {
+    "sound": "grass"
+  },
+  "kana_nto:wither_bone_block": {
+    "sound": "bone_block",
+    "textures": {
+      "down": "wither_bone_block_top",
+      "side": "wither_bone_block_side",
+      "up": "wither_bone_block_top"
+    }
+  },
+  "kana_nto:rhyolite": {
+    "sound": "tuff"
+  },
+  "kana_nto:gloomy_netherrack": {
+    "sound": "netherrack"
+  },
+  "kana_nto:gloomy_nether_bricks": {
+    "sound": "nether_brick"
+  },
+  "kana_nto:lavalily_block": {
+    "sound": "grass"
+  },
+  "kana_nto:inkcap_mushroom_block": {
+    "sound": "wood"
+  },
+  "kana_nto:lava_soaker": {
+    "sound": "grass"
+  },
+  "kana_nto:lava_soaker_molten": {
+    "sound": "grass"
+  }
+}

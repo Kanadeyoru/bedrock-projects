@@ -1,0 +1,59 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "crimson_sprouts_block": {
+      "textures": "textures/blocks/crimson_sprouts.png"
+    },
+    "crimson_turf_top": {
+      "textures": "textures/blocks/crimson_turf_top.png"
+    },
+    "crimson_turf_bottom": {
+      "textures": "textures/blocks/crimson_turf_bottom.png"
+    },
+    "wither_bone_block_side": {
+      "textures": "textures/blocks/wither_bone_block_side.png"
+    },
+    "wither_bone_block_top": {
+      "textures": "textures/blocks/wither_bone_block_top.png"
+    },
+    "rhyolite": {
+      "textures": "textures/blocks/rhyolite.png"
+    },
+    "thornstalk_bottom": {
+      "textures": "textures/blocks/thornstalk_bottom.png"
+    },
+    "thornstalk_middle": {
+      "textures": "textures/blocks/thornstalk_middle.png"
+    },
+    "thornstalk_top": {
+      "textures": "textures/blocks/thornstalk_top.png"
+    },
+    "gloomy_netherrack": {
+      "textures": "textures/blocks/gloomy_netherrack.png"
+    },
+    "gloomy_nether_bricks": {
+      "textures": "textures/blocks/gloomy_nether_bricks.png"
+    },
+    "lavalily_block": {
+      "textures": "textures/blocks/lavalily.png"
+    },
+    "inkcap_mushroom_block": {
+      "textures": "textures/blocks/mushroom_block_skin_black.png"
+    },
+    "mushroom_block_inside": {
+      "textures": "textures/blocks/mushroom_block_inside.png"
+    },
+    "mushroom_black_block": {
+      "textures": "textures/blocks/mushroom_black"
+    },
+    "lava_soaker": {
+      "textures": "textures/blocks/lava_soaker"
+    },
+    "lava_soaker_molten": {
+      "textures": "textures/blocks/lava_soaker_molten"
+    }
+  }
+}

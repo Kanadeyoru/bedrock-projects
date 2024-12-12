@@ -1,0 +1,51 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "kana_nto:crimson_vegetation_gen",
+      "places_feature": "kana_nto:vegetation/crimson_vegetation_weightf"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "crimson_forest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 150,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          -16,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          30,
+          120
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          -16,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "kana_nto:crimson_sprouts_block",
+      "menu_category": {
+        "is_hidden_in_commands": true,
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.cross",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:netherrack",
+              "minecraft:crimson_nylium",
+              "minecraft:warped_nylium"
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "crimson_sprouts_block",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:selection_box": {
+        "origin": [
+          -5.5,
+          0,
+          -5.5
+        ],
+        "size": [
+          11,
+          5,
+          11
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:flammable": false
+    }
+  }
+}

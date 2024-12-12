@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "kana_nto:blackstone_wastes_patch_gen",
+      "places_feature": "kana_nto:patch/blackstone_patch_oref"
+    },
+    "conditions": {
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "nether_wastes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 15,
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          8
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          25,
+          128
+        ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          0,
+          8
+        ]
+      }
+    }
+  }
+}
