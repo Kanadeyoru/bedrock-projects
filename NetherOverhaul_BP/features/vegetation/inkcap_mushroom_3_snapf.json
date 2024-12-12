@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "kana_nto:vegetation/inkcap_mushroom_3_snapf"
+    },
+    "feature_to_snap": "kana_nto:vegetation/inkcap_mushroom_3_structuref",
+    "surface": "floor",
+    "vertical_search_range": 12
+  }
+}

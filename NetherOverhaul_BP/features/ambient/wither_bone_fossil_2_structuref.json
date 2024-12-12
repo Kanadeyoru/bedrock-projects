@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "kana_nto:ambient/wither_bone_fossil_2_structuref"
+    },
+    "structure_name": "mystructure:wither_bone_fossil_2",
+    "adjustment_radius": 4,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air",
+          "minecraft:soul_soil",
+          "minecraft:soul_sand"
+        ]
+      }
+    }
+  }
+}

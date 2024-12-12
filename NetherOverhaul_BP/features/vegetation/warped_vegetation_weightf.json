@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "kana_nto:vegetation/warped_vegetation_weightf"
+    },
+    "features": [
+      [
+        "kana_nto:vegetation/twisting_vines_1_scatterf",
+        1
+      ],
+      [
+        "kana_nto:vegetation/twisting_vines_2_scatterf",
+        1
+      ],
+      [
+        "kana_nto:vegetation/warped_roots_scatterf",
+        3
+      ],
+      [
+        "kana_nto:vegetation/nether_sprouts_scatterf",
+        2
+      ]
+    ]
+  }
+}

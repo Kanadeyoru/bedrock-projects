@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "kana_nto:ambient/wither_bone_fossil_weightf"
+    },
+    "features": [
+      [
+        "kana_nto:ambient/wither_bone_fossil_1_snapf",
+        1
+      ],
+      [
+        "kana_nto:ambient/wither_bone_fossil_2_snapf",
+        1
+      ],
+      [
+        "kana_nto:ambient/wither_bone_fossil_3_snapf",
+        1
+      ]
+    ]
+  }
+}

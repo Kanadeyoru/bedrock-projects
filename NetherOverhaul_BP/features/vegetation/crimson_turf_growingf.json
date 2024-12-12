@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "kana_nto:vegetation/crimson_turf_growingf"
+    },
+    "age": {
+      "range_min": 2,
+      "range_max": 2
+    },
+    "allow_water": false,
+    "body_blocks": [
+      [
+        "kana_nto:crimson_turf_bottom",
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        "kana_nto:crimson_turf_top",
+        1
+      ]
+    ],
+    "growth_direction": "UP",
+    "height_distribution": [
+      [
+        {
+          "range_min": 2,
+          "range_max": 2
+        },
+        1
+      ]
+    ]
+  }
+}
