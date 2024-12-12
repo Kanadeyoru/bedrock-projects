@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "kana_nto:ambient/warped_pole_2_structuref"
+    },
+    "structure_name": "mystructure:warped_pole_2",
+    "adjustment_radius": 4,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:netherrack",
+          "minecraft:warped_nylium",
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

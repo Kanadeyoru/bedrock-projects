@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "kana_nto:vegetation/crimson_sprouts_scatterf"
+    },
+    "places_feature": "kana_nto:vegetation/crimson_sprouts_singlef",
+    "distribution": {
+      "iterations": 60,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "extent": [
+          -8,
+          8
+        ],
+        "distribution": "triangle"
+      },
+      "z": {
+        "extent": [
+          -8,
+          8
+        ],
+        "distribution": "triangle"
+      },
+      "y": {
+        "extent": [
+          -4,
+          4
+        ],
+        "distribution": "triangle"
+      }
+    },
+    "project_input_to_floor": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "kana_nto:vegetation/thornstalk_structuref"
+    },
+    "structure_name": "mystructure:thornstalk",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "unburied": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:soul_soil",
+          "minecraft:soul_sand",
+          "kana_nto:gloomy_netherrack",
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

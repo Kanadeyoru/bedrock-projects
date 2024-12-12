@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "kana_nto:patch/gloomy_patch_oref"
+    },
+    "count": 150,
+    "replace_rules": [
+      {
+        "places_block": "kana_nto:gloomy_netherrack",
+        "may_replace": [
+          {
+            "tags": "!query.any_tag('not_feature_replaceable')"
+          },
+          "minecraft:netherrack",
+          "minecraft:basalt"
+        ]
+      }
+    ]
+  }
+}

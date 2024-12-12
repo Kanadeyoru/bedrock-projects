@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "kana_nto:ambient/warped_pole_weightf"
+    },
+    "features": [
+      [
+        "kana_nto:ambient/warped_pole_1_snapf",
+        1
+      ],
+      [
+        "kana_nto:ambient/warped_pole_2_snapf",
+        2
+      ],
+      [
+        "kana_nto:ambient/warped_pole_3_snapf",
+        1
+      ]
+    ]
+  }
+}
