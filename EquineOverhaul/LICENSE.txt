@@ -1,6 +1,6 @@
 # LICENSE.txt
 
-This mod uses textures derived from the mod "Horseshoes", licensed under the MIT license.
+This add-on uses textures derived from the mod "Horseshoes", licensed under the MIT license.
 
 ## Texture credits:
 - iron_horseshoes
